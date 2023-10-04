@@ -81,7 +81,7 @@ body {
   left: 20px;
 }
 #hero {
-  background-image: url("/Landing Page/assets/hero4.png");
+  background-image: url("/public/assets/hero4.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -99,7 +99,7 @@ body {
   color: #088178;
 }
 #hero button {
-  background-image: url("/Landing Page/assets/button.png");
+  background-image: url("/public/assets/button.png");
   background-color: transparent;
   color: #088178;
   border: 0;
