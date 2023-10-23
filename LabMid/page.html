@@ -9,7 +9,9 @@
 
   <body>
     <section id="header">
+        <class id="logo">
         <img src="https://cdn.techjuice.pk/wp-content/uploads/2021/04/Frame-1-5.png" alt="TechJuice">
+    </class>
       <div>
         <ul id="navbar">
           <li><a class="active" href="index.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
@@ -245,5 +247,13 @@
       src="https://kit.fontawesome.com/f274c007a9.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script $(document).ready(()=>{
+
+        $("#logo").click(()=>{
+            $("#navbar").hide();
+        })
+    }
+    </script>
   </body>
 </html>
