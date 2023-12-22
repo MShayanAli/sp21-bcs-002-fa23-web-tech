@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
 import logo from "../assets/logo.png"
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -21,7 +21,7 @@ export default function Navbar() {
           <li><Link to="/Login">Login</Link></li>
           <li><Link to="/Signup">Signup</Link></li>
           {/* <li><Link to="/Contact">Contact</Link></li> */}
-          <li><Link to="/Cart"><i class="fa-solid fa-bag-shopping"></i></Link></li>
+          <li><Link to="/Cal">Calulator</Link></li>
         </ul>
       </div>
     </section>

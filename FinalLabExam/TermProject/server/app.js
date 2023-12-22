@@ -1,6 +1,7 @@
 import express, { urlencoded } from "express";
 import userRouter from './routes/Users.js'
 import productRouter from './routes/Products.js'
+import calRouter from './routes/Cal.js'
 import cors from 'cors'       
 import { config } from 'dotenv' 
 
@@ -12,5 +13,6 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 app.use("/Products",productRouter)
 app.use("/Users",userRouter)
+app.use("/Cal",calRouter)
 
 export default app;

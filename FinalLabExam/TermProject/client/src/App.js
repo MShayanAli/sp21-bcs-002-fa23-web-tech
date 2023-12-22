@@ -3,7 +3,7 @@ import Home from './routes/Home';
 import Shop from './routes/Shop';
 import About from './routes/About';
 import Login from './routes/Login'
-import Cart from './routes/Cart';
+import Cal from './routes/Cal';
 import Signup from './routes/Signup';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -17,7 +17,7 @@ function App() {
           <Route path="/About" element={<About/>}/>
           <Route path="/Login" element={<Login/>}/>
           <Route path="/Signup" element={<Signup/>}/>
-          <Route path="/Cart" element={<Cart/>}/>
+          <Route path="/Cal" element={<Cal/>}/>
       </Routes>
       </BrowserRouter>
     </div>

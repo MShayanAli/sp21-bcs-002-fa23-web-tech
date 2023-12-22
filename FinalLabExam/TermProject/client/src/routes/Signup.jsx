@@ -21,7 +21,6 @@ export default function Signup() {
         if(response.status===200)
         {
           navigate("/");
-
         }
       })
       .catch((e) => {
